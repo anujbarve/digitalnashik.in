@@ -1,0 +1,15 @@
+ERROR - 2025-04-10 09:34:42 --> MySQL server has gone away
+CRITICAL - 2025-04-10 09:34:42 --> Call to a member function getResult() on bool
+#0 /home/u201569000/domains/digitalnashik.in/public_html/app/Common.php(1761): App\Models\PostAdminModel->getPostFiles()
+#1 /home/u201569000/domains/digitalnashik.in/public_html/app/Views/post/post.php(98): getPostFiles()
+#2 /home/u201569000/domains/digitalnashik.in/public_html/system/View/View.php(210): include('/home/u20156900...')
+#3 /home/u201569000/domains/digitalnashik.in/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/u201569000/domains/digitalnashik.in/public_html/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /home/u201569000/domains/digitalnashik.in/public_html/app/Controllers/HomeController.php(173): view()
+#6 /home/u201569000/domains/digitalnashik.in/public_html/app/Controllers/HomeController.php(104): App\Controllers\HomeController->post()
+#7 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(831): App\Controllers\HomeController->any()
+#8 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController()
+#9 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u201569000/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2025-04-10 09:34:42 --> MySQL server has gone away

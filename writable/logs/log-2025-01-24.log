@@ -1,0 +1,8 @@
+CRITICAL - 2025-01-24 12:06:03 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u722665195/domains/digitalnashik.in/public_html/app/Models/FileModel.php on line 186
+#0 /home/u722665195/domains/digitalnashik.in/public_html/app/Models/FileModel.php(186): CodeIgniter\Database\BaseBuilder->like()
+#1 /home/u722665195/domains/digitalnashik.in/public_html/app/Controllers/FileController.php(146): App\Models\FileModel->searchQuizImages()
+#2 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(831): App\Controllers\FileController->searchQuizImage()
+#3 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController()
+#4 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u722665195/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}

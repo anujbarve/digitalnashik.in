@@ -1,0 +1,3 @@
+[26-Aug-2022 11:12:16 UTC] PHP Notice:  Undefined variable: code in /home/ru9npc9fe3ir/public_html/digitalnashik.in/install/functions.php on line 15
+[26-Aug-2022 11:12:16 UTC] PHP Notice:  Trying to get property 'code' of non-object in /home/ru9npc9fe3ir/public_html/digitalnashik.in/install/index.php on line 32
+[26-Aug-2022 11:12:16 UTC] PHP Notice:  Trying to get property 'code' of non-object in /home/ru9npc9fe3ir/public_html/digitalnashik.in/install/index.php on line 35

@@ -1,0 +1,31 @@
+CRITICAL - 2025-06-13 02:43:33 --> The action you requested is not allowed.
+#0 /home/u201569000/domains/digitalnashik.in/public_html/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u201569000/domains/digitalnashik.in/public_html/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /home/u201569000/domains/digitalnashik.in/public_html/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(392): CodeIgniter\Filters\Filters->run()
+#4 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u201569000/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2025-06-13 12:28:54 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2025-06-13 12:28:54 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /home/u201569000/domains/digitalnashik.in/public_html/system/Session/Handlers/DatabaseHandler.php(94): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 /home/u201569000/domains/digitalnashik.in/public_html/system/Session/Session.php(894): session_start()
+#3 /home/u201569000/domains/digitalnashik.in/public_html/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 /home/u201569000/domains/digitalnashik.in/public_html/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#5 /home/u201569000/domains/digitalnashik.in/public_html/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 /home/u201569000/domains/digitalnashik.in/public_html/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 /home/u201569000/domains/digitalnashik.in/public_html/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 /home/u201569000/domains/digitalnashik.in/public_html/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 /home/u201569000/domains/digitalnashik.in/public_html/app/Config/Globals.php(27): CodeIgniter\Config\BaseService::__callStatic()
+#10 /home/u201569000/domains/digitalnashik.in/public_html/app/Config/Globals.php(108): Config\Globals::setGlobals()
+#11 /home/u201569000/domains/digitalnashik.in/public_html/system/Autoloader/Autoloader.php(264): include_once('/home/u20156900...')
+#12 /home/u201569000/domains/digitalnashik.in/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#13 /home/u201569000/domains/digitalnashik.in/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#14 /home/u201569000/domains/digitalnashik.in/public_html/app/Config/Routes.php(7): CodeIgniter\Autoloader\Autoloader->loadClass()
+#15 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(712): require('/home/u20156900...')
+#16 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt()
+#17 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#18 /home/u201569000/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#19 {main}

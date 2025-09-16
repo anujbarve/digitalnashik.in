@@ -1,0 +1,16 @@
+CRITICAL - 2024-03-07 04:27:35 --> The action you requested is not allowed.
+#0 /home/u722665195/domains/digitalnashik.in/public_html/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u722665195/domains/digitalnashik.in/public_html/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /home/u722665195/domains/digitalnashik.in/public_html/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(392): CodeIgniter\Filters\Filters->run()
+#4 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u722665195/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-07 04:27:41 --> The action you requested is not allowed.
+#0 /home/u722665195/domains/digitalnashik.in/public_html/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u722665195/domains/digitalnashik.in/public_html/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /home/u722665195/domains/digitalnashik.in/public_html/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(392): CodeIgniter\Filters\Filters->run()
+#4 /home/u722665195/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u722665195/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}

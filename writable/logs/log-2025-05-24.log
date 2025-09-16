@@ -1,0 +1,24 @@
+CRITICAL - 2025-05-24 15:10:40 --> Attempt to read property "name" on array
+#0 /home/u201569000/domains/digitalnashik.in/public_html/app/Views/post/post.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u201569000/domains/digitalnashik.in/public_html/system/View/View.php(210): include('/home/u20156900...')
+#2 /home/u201569000/domains/digitalnashik.in/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u201569000/domains/digitalnashik.in/public_html/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/u201569000/domains/digitalnashik.in/public_html/app/Controllers/HomeController.php(173): view()
+#5 /home/u201569000/domains/digitalnashik.in/public_html/app/Controllers/HomeController.php(104): App\Controllers\HomeController->post()
+#6 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(831): App\Controllers\HomeController->any()
+#7 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController()
+#8 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u201569000/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-24 15:10:47 --> Attempt to read property "name" on array
+#0 /home/u201569000/domains/digitalnashik.in/public_html/app/Views/post/post.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u201569000/domains/digitalnashik.in/public_html/system/View/View.php(210): include('/home/u20156900...')
+#2 /home/u201569000/domains/digitalnashik.in/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u201569000/domains/digitalnashik.in/public_html/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/u201569000/domains/digitalnashik.in/public_html/app/Controllers/HomeController.php(173): view()
+#5 /home/u201569000/domains/digitalnashik.in/public_html/app/Controllers/HomeController.php(104): App\Controllers\HomeController->post()
+#6 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(831): App\Controllers\HomeController->any()
+#7 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController()
+#8 /home/u201569000/domains/digitalnashik.in/public_html/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u201569000/domains/digitalnashik.in/public_html/index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}

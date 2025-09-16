@@ -1,0 +1,42 @@
+[13-Oct-2022 12:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php:29
+Stack trace:
+#0 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php(17): Notifications->read()
+#1 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 29
+[20-Oct-2022 06:30:58 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php:30
+Stack trace:
+#0 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php(30): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php on line 30
+[20-Oct-2022 06:32:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php on line 30
+[20-Oct-2022 11:07:29 UTC] PHP Warning:  Undefined variable $db in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:07:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php:27
+Stack trace:
+#0 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php(27): mysqli_set_charset()
+#1 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php(17): Notifications->read()
+#2 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:10:03 UTC] PHP Warning:  Undefined variable $db in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:10:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php:27
+Stack trace:
+#0 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php(27): mysqli_set_charset()
+#1 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php(17): Notifications->read()
+#2 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:10:05 UTC] PHP Warning:  Undefined variable $db in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:10:05 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php:27
+Stack trace:
+#0 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php(27): mysqli_set_charset()
+#1 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php(17): Notifications->read()
+#2 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:10:19 UTC] PHP Warning:  Undefined variable $db in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
+[20-Oct-2022 11:10:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php:27
+Stack trace:
+#0 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php(27): mysqli_set_charset()
+#1 /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/api/notifications/read.php(17): Notifications->read()
+#2 {main}
+  thrown in /home/ru9npc9fe3ir/public_html/digitalnashik.in/API/models/Notifications.php on line 27
